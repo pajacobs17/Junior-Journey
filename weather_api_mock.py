@@ -7,7 +7,7 @@ import json
 import weather_api
 
 
-# this is a class which handles behavior for the weather api
+# this is a class which mocks behavior and calls to other classes or services for testing purposes
 class WeatherApiMock(weather_api.WeatherApi):
     
     # mocks a real result from the api for testing purposes
